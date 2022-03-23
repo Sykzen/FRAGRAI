@@ -26,4 +26,4 @@ python3 main.py
 
 - [Sykzen](https://github.com/Sykzen) 
 - [Sarmedd](https://github.com/Sarmedd)
-- [Dousey](https://github.com/BOUNEGTAMohamedRami)
+- [Dousey](https://github.com/DouseyTB)
