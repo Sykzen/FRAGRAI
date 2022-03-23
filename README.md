@@ -5,4 +5,4 @@ Prédire la recette d'un parfum à partir d'un dataset de recette de parfum+la n
 
 ## KIT 
 <img src="https://img.icons8.com/color/48/000000/python.png"/>
-<img src="https://img.icons8.com/color/344/tensorflow.png"/>
+<img src="https://img.icons8.com/color/344/tensorflow.png"/ width="500" height="500">
