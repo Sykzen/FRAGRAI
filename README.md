@@ -1,4 +1,4 @@
-# FRAGRAI <img src="https://img.icons8.com/external-justicon-blue-justicon/344/external-perfume-valentines-day-justicon-blue-justicon.png 2x"/>
+# FRAGRAI <img src="https://img.icons8.com/external-justicon-blue-justicon/344/external-perfume-valentines-day-justicon-blue-justicon.png"/>
 Create fragrance with IA
 # But du Projet
 Prédire la recette d'un parfum à partir d'un dataset de recette de parfum+la note des clients
