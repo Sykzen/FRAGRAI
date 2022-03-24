@@ -247,7 +247,22 @@ while True:
     except:
         print("tenta n"+str(e))
 """
-
+path =str(pathlib.Path(__file__).parent.absolute())+'\dataset.xlsx'
+wb_obj = openpyxl.load_workbook(path.strip())
+sheet_obj = wb_obj.active
+for i in range(700):
+    if pd.isnull(chget(i,data)["Marque"]):
+        continue
+    else:
+        a=sheet_obj.cell(row=i+2,column=1)
+        b=sheet_obj.cell(row=i+2,column=2)
+        c=sheet_obj.cell(row=i+2,column=3)
+        d=sheet_obj.cell(row=i+2,column=3)
+        a.value=chget(i,data)["Marque"]
+        b.value=chget(i,data)["Ingr"]
+        c.value=chget(i,data)["Rating"]
+        d.value=chget(i,data)["Reference"]
+wb_obj.save('dataset.xlsx')
 
 #wb_obj.save('data.xlsx')
     #if not pd.isnull(min_liste_ingr):
