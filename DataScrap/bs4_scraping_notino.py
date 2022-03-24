@@ -221,7 +221,12 @@ def makeRating(rng):
    #     lk=sheet_obj.cell(row=e+2,column=1)
     #    lk.value=i
    # wb_obj.save('data.xlsx')
-        
+def makeReference(link):
+    ref=link.split("/")[-1]
+    return ref.replace("-"," ")
+def makeBrand(link):
+    brand=link.split("/")[3]
+    return brand.replace("-"," ")
         
 #data=bs4_scraping_notino()
 #a=data.get_ingredients_of_perfume("https://www.notino.fr/calvin-klein/ck-be-eau-de-toilette-mixte/")
@@ -229,6 +234,8 @@ def makeRating(rng):
 #data,size=makeNotino()
 #test=bs4_scraping_notino()
 #a=test.testctrat()
+
+#Scrap force
 """e=0
 t=3
 while True:
@@ -240,12 +247,14 @@ while True:
     except:
         print("tenta n"+str(e))
 """
-liste_of_ingred=[]
-for i in range(900):
-    min_liste_ingr=chget(i,data)["Ingr"]
-    for ii in min_liste_ingr:
-        liste_of_ingred=liste_of_ingred.append(ii)
-    print(min_liste_ingr)
+
+
+#wb_obj.save('data.xlsx')
+    #if not pd.isnull(min_liste_ingr):
+     #   for ii in min_liste_ingr:
+      #      print(ii)
+       #     liste_of_ingred=liste_of_ingred.append(ii)
+        #print(min_liste_ingr)
 #print(sum([1 for i in range(903) if pd.isnull(chget(i,data)["Ingr"]) or len(chget(i,data)["Ingr"].split(","))<5]))
 
 
