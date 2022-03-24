@@ -250,14 +250,16 @@ while True:
 path =str(pathlib.Path(__file__).parent.absolute())+'\dataset.xlsx'
 wb_obj = openpyxl.load_workbook(path.strip())
 sheet_obj = wb_obj.active
+e=0
 for i in range(700):
     if pd.isnull(chget(i,data)["Marque"]):
-        continue
+        e=e+1
+        pass
     else:
-        a=sheet_obj.cell(row=i+2,column=1)
-        b=sheet_obj.cell(row=i+2,column=2)
-        c=sheet_obj.cell(row=i+2,column=3)
-        d=sheet_obj.cell(row=i+2,column=3)
+        a=sheet_obj.cell(row=i+2-e,column=1)
+        b=sheet_obj.cell(row=i+2-e,column=2)
+        c=sheet_obj.cell(row=i+2-e,column=3)
+        d=sheet_obj.cell(row=i+2-e,column=4)
         a.value=chget(i,data)["Marque"]
         b.value=chget(i,data)["Ingr"]
         c.value=chget(i,data)["Rating"]
