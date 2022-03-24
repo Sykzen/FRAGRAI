@@ -28,7 +28,7 @@ python3 main.py
 - [Sarmedd](https://github.com/Sarmedd)
 - [Dousey](https://github.com/DouseyTB)
  ## Sources
- https://www.kaggle.com/code/ishivinal/arabic-name-generator (RNN inspiration)
- https://github.com/simon-larsson/pokemon-name-generator (RNN inspiration)
- https://github.com/antonio-f/Generating-names-with-RNN/blob/master/Generating%20names%20with%20recurrent%20neural%20networks/RNN-task.ipynb (RNN inspiration)
+ - https://www.kaggle.com/code/ishivinal/arabic-name-generator (RNN inspiration)
+ - https://github.com/simon-larsson/pokemon-name-generator (RNN inspiration)
+ - https://github.com/antonio-f/Generating-names-with-RNN/blob/master/Generating%20names%20with%20recurrent%20neural%20networks/RNN-task.ipynb (RNN inspiration)
  
