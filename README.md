@@ -6,13 +6,13 @@ Create fragrance with IA
 
 Prédire la recette et génerer un nom d'un parfum à partir d'un dataset de recette de parfum+la note des clients+nom du parfum et réference
 
-# Résultat Final
-
-![ALT text](Static/model.PNG)
-
 ## KIT
 
 <img src="https://img.icons8.com/color/48/000000/python.png"/> <img src="https://img.icons8.com/color/344/tensorflow.png" width="50" height="50"/>
+
+# Résultat Final
+
+![ALT text](Static/model.PNG)
 
 ## Requirement:
 
